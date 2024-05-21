@@ -17,3 +17,16 @@ The primary objective of the Details Dashboard is to provide a comprehensive and
 ### Snap of Bank-Loan-Analysis | Details
 
 ![BLA3](https://github.com/Sarvmbh74/Bank-Loan-Analysis/assets/143739102/d4884df4-fb23-4257-995a-48f5c6974834)
+
+
+### Snaps of Some SQL Results.
+### Note : The SQL file is attached in the repository with all three report pages queries solved.
+### Snaps of Total Applications/Total Funded Amount / Total Amount Received by Month 
+
+![BLA -Total by month](https://github.com/Sarvmbh74/Bank-Loan-Analysis/assets/143739102/d4a06c72-70ac-4556-806c-497a8c3c8b3d)
+
+### By State
+![total by state](https://github.com/Sarvmbh74/Bank-Loan-Analysis/assets/143739102/6b0c6bff-f18d-4dd2-9c2e-8e463a29bcc5)
+
+### By Ownership
+![BLA-Total by ownership](https://github.com/Sarvmbh74/Bank-Loan-Analysis/assets/143739102/b8dd881d-3478-4e4a-8c7a-eaf2ebc25dad)
