@@ -8,19 +8,21 @@ select count(*) from financial_loan;
 # KPI- Key Performance Indicator
 
 #1 Total Loan Applications
-SELECT COUNT(id) AS Total_Applications FROM financial_loan;
+SELECT CONCAT(ROUND(COUNT(id) / 1000, 1), 'k') AS Total_Applications
+FROM financial_loan;
+
 
 #1.1 MTD Loan Application
-SELECT COUNT(id) AS Total_Applications 
+SELECT CONCAT(ROUND(COUNT(id) / 1000, 1), 'k') AS Total_Applications
 FROM financial_loan
 WHERE DATE_FORMAT(STR_TO_DATE(issue_date, '%Y-%m-%d'), '%m') = '12';
 
 #1.2 PMTD Loan Applications
-SELECT COUNT(id) AS Total_Applications
+SELECT CONCAT(ROUND(COUNT(id) / 1000, 1), 'k') AS Total_Applications
 FROM financial_loan
 WHERE DATE_FORMAT(STR_TO_DATE(issue_date, '%Y-%m-%d'),  '%m') ='11';
 
-
+#1.3 MoM Loan Application
 
 #2. Total Funded Amount
 select concat(FORMAT(round(sum(loan_amount)/ 1000000.0, 2),2),'M') AS Total_Funded_Amount
@@ -36,7 +38,7 @@ select concat(format(round(sum(loan_amount)/1000000.0,2),2),'M') AS Total_Funded
 from financial_loan
 where date_format(STR_TO_DATE(issue_date, '%Y-%m-%d'), '%m') = '11';
 
-#2.3 MoM 
+#2.3 MoM Total Funded Amount
 SELECT 
     concat(format((mtd.total_funded_amount - pmtd.total_funded_amount) / pmtd.total_funded_amount * 100,2), '%') AS MoM_total_funded_amount
 FROM
