@@ -66,7 +66,7 @@ The primary objective of the Details Dashboard is to provide a comprehensive and
    - **Definition**: Evaluate the average DTI for borrowers to gauge their financial health.
    - **Monitoring**: Compute the average DTI for all loans, MTD, and track MoM fluctuations.
 
-### 3. Visual Charts
+###  Visual Charts
 
 1. **Monthly Trends by Issue Date (Line Chart)**
    - **Purpose**: Identify seasonality and long-term trends in lending activities.
@@ -88,7 +88,7 @@ The primary objective of the Details Dashboard is to provide a comprehensive and
 
    - **Metrics to be shown**: 'Total Loan Applications,' 'Total Funded Amount,' and 'Total Amount Received'.
 
-### 4. Good Loan vs Bad Loan KPIs
+###  Good Loan vs Bad Loan KPIs
 
 #### Good Loan:
 - **Good Loan Application Percentage**
@@ -102,7 +102,7 @@ The primary objective of the Details Dashboard is to provide a comprehensive and
 - **Bad Loan Funded Amount**
 - **Bad Loan Total Received Amount**
 
-### 5. Conclusion
+###  Conclusion
 
 By implementing these KPIs and charts, we will have a robust framework for monitoring and analyzing loan data. This will enhance our ability to make informed decisions, optimize lending processes, and assess the financial health of our borrowers. Tracking these metrics will provide valuable insights into loan performance, regional and temporal trends, and the impact of various factors such as employment length and loan purpose on our lending portfolio.
 
